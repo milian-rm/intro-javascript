@@ -1,0 +1,12 @@
+CONTENIDO 
+
+Elementos básicos de JavaScript
+Variables
+Tipos de Datos
+String
+Number
+Conversiones
+
+Elementos de estructura
+Operadores: 
+
