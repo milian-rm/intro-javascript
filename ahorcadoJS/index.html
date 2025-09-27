@@ -1,0 +1,57 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado - Roberto Milián</title>
+    <style>
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #2c3e50;
+            min-height: 100vh;
+        }
+        #dibujo {
+            font-family: 'Courier New', monospace;
+            font-size: 24px;
+            white-space: pre;
+            border: 3px solid #e74c3c;
+            padding: 20px;
+            margin: 20px auto;
+            width: 200px;
+            background-color: #ecf0f1;
+            color: #c0392b;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        #palabra {
+            font-size: 32px;
+            font-family: 'Impact', 'Arial Black', sans-serif;
+            margin: 20px;
+            letter-spacing: 10px;
+            color: #2c3e50;
+            background-color: #f8f9fa;
+        }
+        #info {
+            font-size: 18px;
+            margin: 10px;
+            color: #34495e;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white;">Ahorcado - Roberto Milián</h1>
+    
+    <div id="dibujo"></div>
+    <div id="palabra"></div>
+    <div id="info"></div>
+    
+    <button onclick="escribirLetra()">Escribir Letra</button>
+    
+    <script src="ahorcado-logica.js"></script>
+</body>
+</html>

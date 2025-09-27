@@ -131,6 +131,8 @@ function numeroPrimo(){
     }
     
 }
+//método pensando al inicio para mostrar los ejercicios, se encontró una mejor alternativa
+/*
 function mostrar(){
     console.log("Bienvenido al Programa, Elija una Opción")
     console.log("1. Condicionales")
@@ -193,3 +195,5 @@ function mostrar(){
             console.log("Ingrese una Opción Válida")      
     }
 }
+    */
+   
